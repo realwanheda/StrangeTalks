@@ -60,7 +60,7 @@ function start() {
 }
 
 // connect to server
-const socket = io("http://localhost:8000");
+const socket = io("https://strangetalks.onrender.com/");
 
 // disconnect event
 socket.on("disconnected", () => {
